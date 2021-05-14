@@ -1,3 +1,11 @@
+# ask for the administrator password upfront
+# echo "We'll need admin permissions for some of these settings"
+# echo ""
+# sudo -v
+
+# # keep-alive: update existing `sudo` time stamp until `.osx` has finished
+# while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 ###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
@@ -49,6 +57,13 @@ defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Enable three finger drag
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+defaults -currentHost write -g com.apple.trackpad.threeFingerDragGesture -bool true
+defaults -currentHost write -g com.apple.trackpad.threeFingerHorizSwipeGesture -int 0
+defaults -currentHost write -g com.apple.trackpad.threeFingerVertSwipeGesture -int 0
 
 ###############################################################################
 # Screen                                                                      #

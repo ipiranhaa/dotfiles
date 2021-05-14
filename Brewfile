@@ -1,8 +1,8 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/versions'
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
 
 brew 'git'
 brew 'nvm'

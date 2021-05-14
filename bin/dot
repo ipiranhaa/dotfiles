@@ -38,7 +38,7 @@ while test $# -gt 0; do
 	shift
 done
 
-export DOTFILES_ROOT=$HOME/.dotfiles
+export DOTFILES_ROOT=$HOME/dotfiles
 
 # Set macOS defaults
 $DOTFILES_ROOT/macos/set-defaults.sh

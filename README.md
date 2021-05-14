@@ -39,4 +39,4 @@ You will need to go to the Preference setting of your iTerm2 as follow:
 - Go to Profile > Colors > Color Presets > Pick `Solarized Dark` or `Solarized Light`
 - Go to Profile > Text > Change Font > Search for `Powerline` > Pick whatever you like but `Noto Mono for Powerline` is pretty nice.
 
-After this you may remove Solarized folder from `~/.dotfiles/zsh` if necessary.
+After this you may remove Solarized folder from `~/dotfiles/zsh` if necessary.
