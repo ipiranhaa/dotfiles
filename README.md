@@ -25,6 +25,7 @@ Please run bootstrap script
 - Redux DevTools
 - Refined Github
 - Adblock
+- Vimium
 
 ## Screen Saver
 
