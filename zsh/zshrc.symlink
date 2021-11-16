@@ -79,7 +79,7 @@ plugins=(
     docker
     git
     helm
-    osx
+    macos
     pylint
     python
 )
